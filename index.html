@@ -1,0 +1,23 @@
+
+<html>
+  <head>
+    <title>Find My Vehicle</title>
+    <link type="text/css" rel="stylesheet" href="FindIt.css"/>
+  </head>
+  <body>
+    <div id='navbar'>
+       <button id="park" onClick="setParkingLocation()">Park</button>
+       Park input
+       <button id="retreive" onClick="getParkingLocation()">Find</button>
+    </div>
+    <div id="container">
+      <div id="instructions">
+        <p>Press the Park btn to set the location</p>
+        <p>Press the Find btn to find the current location</p>
+        <p style="text-align: center"><button id="gotIt" onCick="setCss('instructions','display','none')">Got It</button></p>
+      </div>
+      <div id="map"</div>
+      <div id="directions"</div>
+    </div>
+ </body>
+</html>
