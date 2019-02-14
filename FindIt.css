@@ -35,3 +35,21 @@ body{
   margin: 10px auto;
   padding: 5px;
 }
+#map{
+  position: relative;
+  height: 320px;
+  width: 90%;
+  max-width: 320px;
+  margin: 15px auto;
+  padding: 0px 10px;
+  visibility: hidden;
+}
+#directions{
+  position: relative;
+  height: auto;
+  width: 90%;
+  max-width: 320px;
+  margin: 15px auto;
+  padding: 10px 10px;
+  visibility: hidden;
+}
