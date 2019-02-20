@@ -1,26 +1,23 @@
 body{
-  font-family: Roboto, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
 }
 #navbar{
- background-color: white;
- color: black;
-}
-#park, #retrieve{
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
 button{
-  border: none;
-  background-color: white;
-  color: black;
+    border: none;
+    background-color: white;
+    color: #0080ff;
 }
 #instructions, #map, #directions{
- border-radius: 10px;
- background-color: white;
-
+    border-radius: 10px;
+    background-color: white;
+    border: 1px #dddddd solid;
 }
-#gotit{
-  background-color: #0080ff;
-  color: white;
-  border-radius: 5px;
+#gotIt{
+    background-color: #0080ff;
+    color: white;
+    border-radius: 5px;
 }
