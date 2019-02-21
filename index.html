@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-
 <html>
     <head>
         <title>Park It</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="parkIt.css" />
-        <link type="text/css" rel="stylesheet" href="parkItios.css" />
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Du7rvxW4d4NQmKg8qAyxaZ0dGgaY5k"></script>
         <script type="text/javascript" src="parkIt.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
     </head>
-    <body>
+    <body onLoad="init()">
         <div id="navbar">
             <button id="park" onClick="setParkingLocation()">Park</button>
             Park It
@@ -28,3 +25,4 @@
         </div>
     </body>
 </html>
+
